@@ -18,7 +18,7 @@ Julian Castellanos
 ---
 
 
-##More about technologies and libraries on this proyect
+## More about technologies and libraries on this proyect
 > - [ReactJS](https://reactjs.org/)
 > - [MaterialUI](https://material-ui.com/)
 > - [Jest](https://jestjs.io/)
