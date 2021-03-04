@@ -14,14 +14,14 @@ const useStyles = makeStyles({
       padding: '0 60px',
     },
   });
-export const Banner = () => {
+export const Banner = ({id, title,subtitle,paragraph}) => {
     const classes = useStyles();
     return (
-        <div id="banner">
+        <div id={`banner${id}`}>
             <div id="text-banner">
-                <p>Aplicaion para la gestion veterinaria</p>
-                <h1>¡El amor es una palabra de cuatro patas!</h1>
-                <p>Descarga nuestra app en dispositivo android</p>
+                <p>{title}</p>
+                <h1>{subtitle}</h1>
+                <p>{paragraph}</p>
             </div>
             <Button className={classes.root}>Descargar</Button>
         </div>

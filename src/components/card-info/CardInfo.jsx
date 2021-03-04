@@ -36,13 +36,13 @@ export const NavTools = ({ id, title, subtitle, paragraph }) => {
             {parseInt(id) === 1 && (
                 <div id="info-tools-one">
                     {phone}
-                    {info}{" "}
+                    {info}
                 </div>
             )}
             {parseInt(id) === 2 && (
                 <div id="info-tools-one">
                     {info}
-                    {phone}{" "}
+                    {phone}
                 </div>
             )}
             {parseInt(id) === 3 && (

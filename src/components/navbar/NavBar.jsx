@@ -94,7 +94,7 @@ export const NavBar = () => {
 
     return (
         <div className={classes.grow}>
-            <AppBar position="static" color="inherit">
+            <AppBar position="fixed" color="inherit">
                 <Toolbar>
                     <Typography className={classes.title} variant="h6" noWrap>
                         <img
