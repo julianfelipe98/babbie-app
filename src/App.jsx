@@ -3,6 +3,7 @@ import { Banner } from './components/banner-data/Banner'
 import { NavBar } from './components/navbar/NavBar'
 import { NavInformation} from './components/banner-info/BannerInfo'
 import { NavTools} from './components/card-info/CardInfo'
+import { Footer } from './components/footer/Footer'
 
 export const App = () => {
     return (
@@ -14,6 +15,7 @@ export const App = () => {
             <NavTools id="2" title="Explora el historial medico" subtitle="Registra y consulta historiales medicos." paragraph="Puedes registrar cualquier evento de tus mascotas y no perderlos de vista."/>
             <NavTools id="3" title="Siempre contigo" subtitle="Todo el historial medico a tus manos." paragraph="Consulta el historial medico de tus mascotas en cualquier momento y lugar."/>
             <Banner id="2" title="" subtitle="Descarga la aplicacion ahora!" paragraph="Disponible para tu dispositivo Android. comienza la experiencia ahora."/>
+            <Footer/>
         </>
     )
 }

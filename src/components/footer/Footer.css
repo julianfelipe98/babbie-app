@@ -1,0 +1,20 @@
+#logo-img{
+    width: "10%";
+    height: "auto";
+}
+.footer-inside{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffff;
+}
+.center-align{
+    align-self: center;
+}
+.footer{
+    background-color: #5271ff;
+    padding: 3% 4% 3% 4%
+}
+#icons a{
+    padding-right: 15px;
+    color: #5271ff;
+}
