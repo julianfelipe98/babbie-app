@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero component test should render <Hero/> in the correct way 1`] = `
+<div
+  className="hero-component"
+>
+  <Banner
+    btn="Descargala aqui"
+    id="1"
+    paragraph="Descarga nuestra app en dispositivos android"
+    styleBtn="download-btn2"
+    subtitle="¡El amor es una palabra de cuatro patas!"
+    title="Aplicacion para la gestion veterinaria"
+  />
+  <img
+    alt="phone-logo"
+    id="imageCellphoneInfo"
+    src="cp1.png"
+  />
+</div>
+`;

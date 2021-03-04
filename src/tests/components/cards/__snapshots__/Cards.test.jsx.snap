@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards component tests should render <Cards/> component in the correct way 1`] = `
+<div
+  className="cards"
+>
+  <div
+    className="main-title"
+  >
+    <hr
+      className="solid"
+    />
+    <h1
+      id="text-info"
+    >
+      ¿Como funciona?
+    </h1>
+  </div>
+  <CardInfo
+    id={0}
+    key="0"
+    paragraph="Registra a todas tus mascotas en tu cuenta pra llevarlas siempre contigo."
+    subtitle="Crea o ingresa tu cuenta para comenzar."
+    title="Crea tu cuenta"
+  />
+  <CardInfo
+    id={1}
+    key="1"
+    paragraph="Puedes registrar cualquier evento de tus mascotas y no perderlos de vista."
+    subtitle="Registra y consulta historiales medicos."
+    title="Explora el historial medico"
+  />
+  <CardInfo
+    btn="true"
+    id={2}
+    key="2"
+    paragraph="Consulta el historial medico de tus mascotas en cualquier momento y lugar."
+    subtitle="Todo el historial medico a tus manos."
+    title="Siempre contigo"
+  />
+</div>
+`;

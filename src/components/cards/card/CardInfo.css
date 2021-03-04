@@ -1,0 +1,32 @@
+#navTools {
+  width: 100%;
+  color: #000000;
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+}
+#text-info-phone {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-self: center;
+}
+#imageCellphone {
+  width: 20rem;
+  height: auto;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
+}
+#card-title {
+  /* background-color: blue; */
+  color: #497dfa;
+  font-weight: 800;
+}
+h3 {
+  color: #737373;
+  font-weight: 400;
+}
+#subtitle-card{
+  color: #252b42;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component tests should render <BannerApp/> in the correct way 1`] = `
+<div
+  id="bannerundefined"
+>
+  <div
+    id="text-banner"
+  >
+    <p
+      id="title"
+    >
+      title
+    </p>
+    <h1
+      id="subtitle"
+    >
+      subtitle
+    </h1>
+    <p
+      id="paragraph"
+    >
+      paragraph
+    </p>
+  </div>
+  <button />
+</div>
+`;

@@ -1,20 +1,21 @@
 #logo-img{
-    width: "10%";
+    width: "30%";
     height: "auto";
 }
-.footer-inside{
+.footer{
     display: flex;
     justify-content: space-evenly;
     background-color: #ffff;
+    padding: 0.5% 1% 
 }
 .center-align{
     align-self: center;
 }
-.footer{
-    background-color: #5271ff;
-    padding: 3% 4% 3% 4%
-}
 #icons a{
     padding-right: 15px;
     color: #5271ff;
+}
+#copyright{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5C5C5C;
 }

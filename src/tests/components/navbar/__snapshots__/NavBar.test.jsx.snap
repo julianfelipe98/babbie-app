@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component tests should render <NavBar/> in the correct way 1`] = `
+<div
+  className="makeStyles-grow-1"
+>
+  <WithStyles(ForwardRef(AppBar))
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-title-3"
+        noWrap={true}
+        variant="h6"
+      >
+        <img
+          alt="logo-babbie"
+          className="makeStyles-img-8"
+          id="logo-img"
+          src="logo.svg"
+        />
+      </WithStyles(ForwardRef(Typography))>
+      <div
+        className="makeStyles-grow-1"
+      />
+      <BottonNavegaton />
+      <div
+        className="makeStyles-sectionDesktop-6"
+      >
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          edge="end"
+          variant="outlined"
+        >
+          <Memo([object Object]) />
+          Buscar historial medico
+        </WithStyles(ForwardRef(Button))>
+      </div>
+      <div
+        className="makeStyles-sectionMobile-7"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          aria-controls="primary-search-account-menu-mobile"
+          aria-haspopup="true"
+          aria-label="show more"
+          color="inherit"
+          onClick={[Function]}
+        >
+          <Memo([object Object]) />
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <WithStyles(ForwardRef(Menu))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+    id="primary-search-account-menu-mobile"
+    keepMounted={true}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        edge="end"
+        variant="outlined"
+      >
+        <Memo([object Object]) />
+        Buscar historial medico
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Menu))>
+</div>
+`;

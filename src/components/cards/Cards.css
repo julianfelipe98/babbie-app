@@ -1,0 +1,15 @@
+hr {
+  width: 50%;
+  height: 2px;
+  background-color: #e4e4e4;
+  border: none;
+}
+#text-info {
+  color: #222;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.main-title{
+    padding-bottom: 5%;
+    text-align: center;
+}

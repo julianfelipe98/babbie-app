@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardInfo component tests should render <CardInfo/> in the correct way 1`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      id="text-info-phone"
+    >
+      <div
+        id="card-title"
+      >
+        <p>
+          title
+        </p>
+      </div>
+      <h1
+        id="subtitle-card"
+      >
+        subtitle
+      </h1>
+      <h3>
+        paragraph
+      </h3>
+    </div>
+    <div
+      id="iconPhoneTool"
+    >
+      <img
+        alt="logo-cellphone-2"
+        id="imageCellphone"
+        src="cp2.png"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component tests should render <Footer/> in the correct way 1`] = `
+<div
+  className="footer"
+>
+  <img
+    alt="logo-babbie"
+    id="logo-img"
+    src="logo.svg"
+  />
+  <div
+    className="center-align"
+    id="icons"
+  >
+    <a
+      href="https://www.facebook.com"
+    >
+      <Memo([object Object])
+        fontSize="large"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com"
+    >
+      <Memo([object Object])
+        fontSize="large"
+      />
+    </a>
+    <a
+      href="https://www.twitter.com"
+    >
+      <Memo([object Object])
+        fontSize="large"
+      />
+    </a>
+  </div>
+  <div
+    className="center-align"
+    id="copyright"
+  >
+    <p>
+      Copyright 2021 BabbieApp®
+    </p>
+  </div>
+</div>
+`;
