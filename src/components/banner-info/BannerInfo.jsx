@@ -1,5 +1,5 @@
 import React from "react";
-import './NavInformation.css';
+import './BannerInfo.css';
 import phoneLogo from '../../assets/cp1.png';
 
 export const NavInformation = () => {
