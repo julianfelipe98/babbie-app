@@ -10,7 +10,8 @@ export const App = () => {
             <NavBar/>
             <Banner/>
             <NavInformation/>
-            <NavTools/>
+            <NavTools id="1" title="Crea tu cuenta" subtitle="Crea o ingresa tu cuenta para comenzar." paragraph="Registra a todas tus mascotas en tu cuenta pra llevarlas siempre contigo."/>
+            <NavTools id="2" title="Explora el historial medico" subtitle="Registra y consulta historiales medicos." paragraph="Puedes registrar cualquier evento de tus mascotas y no perderlos de vista."/>
         </>
     )
 }

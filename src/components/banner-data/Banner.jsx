@@ -23,7 +23,7 @@ export const Banner = () => {
                 <h1>¡El amor es una palabra de cuatro patas!</h1>
                 <p>Descarga nuestra app en dispositivo android</p>
             </div>
-            <Button class={classes.root}>Descargar</Button>
+            <Button className={classes.root}>Descargar</Button>
         </div>
     );
 };
