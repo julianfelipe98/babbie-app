@@ -19,23 +19,29 @@ exports[`Cards component tests should render <Cards/> component in the correct w
   <CardInfo
     id={0}
     key="0"
-    paragraph="Registra a todas tus mascotas en tu cuenta pra llevarlas siempre contigo."
-    subtitle="Crea o ingresa tu cuenta para comenzar."
+    paragraph1="Registra a todas tus mascotas en tu cuenta "
+    paragraph2="para llevarlas siempre contigo."
+    subtitle1="Crea o ingresa tu cuenta "
+    subtitle2="para comenzar."
     title="Crea tu cuenta"
   />
   <CardInfo
     id={1}
     key="1"
-    paragraph="Puedes registrar cualquier evento de tus mascotas y no perderlos de vista."
-    subtitle="Registra y consulta historiales medicos."
+    paragraph1="Puedes registrar cualquier evento de "
+    paragraph2="tus mascotas y no perderlos de vista."
+    subtitle1="Registra y consulta "
+    subtitle2="historiales medicos."
     title="Explora el historial medico"
   />
   <CardInfo
     btn="true"
     id={2}
     key="2"
-    paragraph="Consulta el historial medico de tus mascotas en cualquier momento y lugar."
-    subtitle="Todo el historial medico a tus manos."
+    paragraph1="Consulta el historial medico de tus mascotas "
+    paragraph2="en cualquier momento y lugar."
+    subtitle1="Todo el historial medico "
+    subtitle2="a tus manos."
     title="Siempre contigo"
   />
 </div>

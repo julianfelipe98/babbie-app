@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     width: "50%",
   },
 });
-export const BottonNavegaton = () => {
+export const ButtonNavegation = () => {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
   

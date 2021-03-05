@@ -16,11 +16,23 @@ exports[`CardInfo component tests should render <CardInfo/> in the correct way 1
         </p>
       </div>
       <h1
-        id="subtitle-card"
+        className="subtitle-card"
       >
-        subtitle
+        subtitle1
       </h1>
-      <h3>
+      <h1
+        className="subtitle-card"
+      >
+        subtitle2
+      </h1>
+      <h3
+        className="paragraph-card"
+      >
+        paragraph
+      </h3>
+      <h3
+        className="paragraph-card"
+      >
         paragraph
       </h3>
     </div>

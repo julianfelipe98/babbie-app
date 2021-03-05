@@ -24,7 +24,7 @@ exports[`NavBar component tests should render <NavBar/> in the correct way 1`] =
       <div
         className="makeStyles-grow-1"
       />
-      <BottonNavegaton />
+      <ButtonNavegation />
       <div
         className="makeStyles-sectionDesktop-6"
       >

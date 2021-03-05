@@ -9,24 +9,32 @@
   text-align: start;
 }
 #text-info-phone {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   align-self: center;
 }
 #imageCellphone {
-  width: 20rem;
+  width: 60%;
   height: auto;
   filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
 }
 #card-title {
   /* background-color: blue; */
   color: #497dfa;
-  font-weight: 800;
+  font-weight: 1000;
 }
 h3 {
   color: #737373;
   font-weight: 400;
 }
-#subtitle-card{
+.subtitle-card{
   color: #252b42;
+  margin-bottom:15px;
+  margin-top: 15px;
+}
+.paragraph-card{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+#true{
+  margin-bottom: 100px;
 }

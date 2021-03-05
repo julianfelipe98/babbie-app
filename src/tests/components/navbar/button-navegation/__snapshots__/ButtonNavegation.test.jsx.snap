@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonNavegation component tests should render <ButtonNavegation/> in the correct way 1`] = `
+<WithStyles(ForwardRef(BottomNavigation))
+  className="makeStyles-root-1"
+  onChange={[Function]}
+  showLabels={true}
+  value={0}
+>
+  <WithStyles(ForwardRef(BottomNavigationAction))
+    label="Inicio"
+  />
+  <WithStyles(ForwardRef(BottomNavigationAction))
+    label="Producto"
+  />
+  <WithStyles(ForwardRef(BottomNavigationAction))
+    label="Contacto"
+  />
+</WithStyles(ForwardRef(BottomNavigation))>
+`;

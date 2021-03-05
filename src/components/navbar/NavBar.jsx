@@ -9,7 +9,7 @@ import Menu from "@material-ui/core/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import { Button } from "@material-ui/core";
-import { BottonNavegaton } from "./button-navegation/ButtonNavegation";
+import { ButtonNavegation } from "./button-navegation/ButtonNavegation";
 import logo from "../../assets/logo.svg";
 
 const useStyles = makeStyles((theme) => ({
@@ -100,7 +100,7 @@ export const NavBar = () => {
             ></img>
           </Typography>
           <div className={classes.grow} />
-          <BottonNavegaton />
+          <ButtonNavegation />
           <div className={classes.sectionDesktop}>
             <Button variant="outlined" color="primary" edge="end">
               <SearchIcon />

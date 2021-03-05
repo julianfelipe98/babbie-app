@@ -12,7 +12,7 @@ export const App = () => {
       <Cards/>
       <Banner
         id="2"
-        subtitle="Descarga la aplicacion ahora!"
+        subtitle1="Descarga la aplicacion ahora!"
         paragraph="Disponible para tu dispositivo Android. comienza la experiencia ahora."
         styleBtn="download-btn"
         btn="Descargar ahora"

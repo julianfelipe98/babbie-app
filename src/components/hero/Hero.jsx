@@ -6,7 +6,8 @@ export const Hero = () => {
   const banner = {
     id: "1",
     title: "Aplicacion para la gestion veterinaria",
-    subtitle: "¡El amor es una palabra de cuatro patas!",
+    subtitle1: "¡El amor es una palabra ",
+    subtitle2:"de cuatro patas!",
     paragraph: "Descarga nuestra app en dispositivos android",
     styleBtn: "download-btn2",
     btn: "Descargala aqui",
@@ -16,7 +17,8 @@ export const Hero = () => {
       <Banner
         id={banner.id}
         title={banner.title}
-        subtitle={banner.subtitle}
+        subtitle1={banner.subtitle1}
+        subtitle2={banner.subtitle2}
         paragraph={banner.paragraph}
         styleBtn={banner.styleBtn}
         btn={banner.btn}

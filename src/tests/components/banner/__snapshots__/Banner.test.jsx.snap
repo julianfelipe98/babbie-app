@@ -7,22 +7,33 @@ exports[`Banner component tests should render <BannerApp/> in the correct way 1`
   <div
     id="text-banner"
   >
-    <p
-      id="title"
+    <div
+      className="banner-content"
     >
-      title
-    </p>
-    <h1
-      id="subtitle"
-    >
-      subtitle
-    </h1>
-    <p
-      id="paragraph"
-    >
-      paragraph
-    </p>
+      <p
+        id="title"
+      >
+        title
+      </p>
+      <h1
+        className="subtitle"
+        id="subtitle1"
+      >
+        subtitle1
+      </h1>
+      <h1
+        className="subtitle"
+        id="subtitle2"
+      >
+        subtitle2
+      </h1>
+      <p
+        id="paragraph"
+      >
+        paragraph
+      </p>
+      <button />
+    </div>
   </div>
-  <button />
 </div>
 `;

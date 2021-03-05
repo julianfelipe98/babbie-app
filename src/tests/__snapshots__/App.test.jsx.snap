@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component tests should render <App/> in the correct way 1`] = `
+<div>
+  <NavBar />
+  <Hero />
+  <Cards />
+  <Banner
+    btn="Descargar ahora"
+    id="2"
+    paragraph="Disponible para tu dispositivo Android. comienza la experiencia ahora."
+    styleBtn="download-btn"
+    subtitle1="Descarga la aplicacion ahora!"
+  />
+  <Footer />
+</div>
+`;

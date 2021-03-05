@@ -5,21 +5,27 @@ export const Cards = () => {
   const cardsArray = [
     {
       title: "Crea tu cuenta",
-      subtitle: "Crea o ingresa tu cuenta para comenzar.",
-      paragraph:
-        "Registra a todas tus mascotas en tu cuenta pra llevarlas siempre contigo.",
+      subtitle1: "Crea o ingresa tu cuenta ",
+      subtitle2:"para comenzar.",
+      paragraph1:
+        "Registra a todas tus mascotas en tu cuenta ",
+        paragraph2:"para llevarlas siempre contigo."
     },
     {
       title: "Explora el historial medico",
-      subtitle: "Registra y consulta historiales medicos.",
-      paragraph:
-        "Puedes registrar cualquier evento de tus mascotas y no perderlos de vista.",
+      subtitle1: "Registra y consulta ",
+      subtitle2:"historiales medicos.",
+      paragraph1:
+        "Puedes registrar cualquier evento de ",
+        paragraph2:"tus mascotas y no perderlos de vista."
     },
     {
       title: "Siempre contigo",
-      subtitle: "Todo el historial medico a tus manos.",
-      paragraph:
-        "Consulta el historial medico de tus mascotas en cualquier momento y lugar.",
+      subtitle1: "Todo el historial medico ",
+      subtitle2:"a tus manos.",
+      paragraph1:
+        "Consulta el historial medico de tus mascotas ",
+        paragraph2:"en cualquier momento y lugar.",
       btn: "true",
     },
   ];
@@ -34,8 +40,10 @@ export const Cards = () => {
           key={i}
           id={i}
           title={card.title}
-          subtitle={card.subtitle}
-          paragraph={card.paragraph}
+          subtitle1={card.subtitle1}
+          subtitle2={card.subtitle2}
+          paragraph1={card.paragraph1}
+          paragraph2={card.paragraph2}
           btn={card.btn}
         />
       ))}

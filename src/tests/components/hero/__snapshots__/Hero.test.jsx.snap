@@ -9,7 +9,8 @@ exports[`Hero component test should render <Hero/> in the correct way 1`] = `
     id="1"
     paragraph="Descarga nuestra app en dispositivos android"
     styleBtn="download-btn2"
-    subtitle="¡El amor es una palabra de cuatro patas!"
+    subtitle1="¡El amor es una palabra "
+    subtitle2="de cuatro patas!"
     title="Aplicacion para la gestion veterinaria"
   />
   <img

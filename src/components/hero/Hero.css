@@ -1,10 +1,10 @@
 #imageCellphoneInfo {
   padding-top: 25px;
   position: relative;
-  width: 25rem;
+  width: 50vh;
   height: auto;
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-  bottom: 10rem;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  bottom: 16vh;
 }
 .hero-component {
   text-align: center;
